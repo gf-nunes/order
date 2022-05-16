@@ -10,6 +10,7 @@ body{
     font-family: 'Outfit', sans-serif;
     font-size: 16px;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .flex-container{
@@ -25,16 +26,16 @@ body{
     background-color: white;
     border-radius: 20px;
     height: 360%;
-    width: 100%;
+    width: 450px;
 }
 
 img {
-    max-width:360px;
-    max-height:100%;
-    width: auto;
-    height: auto;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+.hero{
+    width: 100%;
 }
 
 .plano-container{
@@ -45,9 +46,10 @@ img {
 }
 
 button{
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: hsl(245, 75%, 52%);
     border: none;
     width: 180px;
     height: 40px;
+    color: white;
 }
