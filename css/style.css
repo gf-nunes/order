@@ -10,6 +10,7 @@ body{
     font-family: 'Outfit', sans-serif;
     font-size: 16px;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .flex-container{
@@ -17,37 +18,52 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    margin: 20%;
+    width: 100%;    
 }
 
 .conteudo{
     background-color: white;
     border-radius: 20px;
-    height: 360%;
-    width: 100%;
+    height: 500px;
+    width: 300px;
+    margin: 20%
 }
 
 img {
-    max-width:360px;
-    max-height:100%;
-    width: auto;
-    height: auto;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
+.hero{
+    width: 100%;
+}
+
 .plano-container{
     display: flex;
-    flex-direction: row;
-    background-color: blueviolet;
     border-radius: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.titulo{
+    color:hsl(223, 47%, 23%);
+    font-weight: bold;
+    text-align: center;
+}
+
+.texto{
+    text-align: center;
 }
 
 button{
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: hsl(245, 75%, 52%);
     border: none;
     width: 180px;
     height: 40px;
+    color: white;
+}
+
+.botão{
+    text-align: center;
 }
