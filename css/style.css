@@ -1,7 +1,5 @@
 *,html{
-    margin: 0;
     padding: 0;
-    text-decoration: 0;
 }
 
 body{
@@ -38,21 +36,48 @@ img {
     width: 100%;
 }
 
-.plano-container{
-    display: flex;
-    border-radius: 10px;
-    height: 50px;
-    width: 50px;
-}
-
 .titulo{
     color:hsl(223, 47%, 23%);
     font-weight: bold;
     text-align: center;
 }
 
+h1{
+    font-size: 20px;
+}
+
 .texto{
     text-align: center;
+}
+
+.plano-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    height: 50px;
+    background-color: #ECEEF8;
+    margin: auto;
+    width: 270px;
+    height: 67px;
+}
+
+#texto{
+    color: #797E91;
+    text-align: center;
+    font-size: 16px;
+}
+
+.iconmusic{
+    margin: 0px 20px;
+}
+
+#planoanual{
+    margin: 0px;
+}
+
+a{
+    margin: 0px 20px;
 }
 
 button{
@@ -66,4 +91,10 @@ button{
 
 .botão{
     text-align: center;
+}
+
+#cancel{
+    color: #7E7E8A;
+    text-align: center;
+    font-weight: bold;
 }
